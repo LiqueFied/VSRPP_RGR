@@ -22,7 +22,8 @@ const Toast = (props) => {
     return () => {
       clearInterval(interval);
     };
-
+  
+    
   }, [toastList, autoDelete, dismissTime, list]);
 
   const deleteToast = (id) => {
