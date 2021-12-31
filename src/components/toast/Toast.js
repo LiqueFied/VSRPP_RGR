@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 //import "./Toast.css";
 
+
 const Toast = (props) => {
   const { toastList, position, autoDelete, dismissTime } = props;
   const [list, setList] = useState(toastList);
